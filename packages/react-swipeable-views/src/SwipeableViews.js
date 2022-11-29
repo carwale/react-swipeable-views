@@ -831,7 +831,6 @@ So animateHeight is most likely having no effect at all.`,
                   ref={ref}
                   style={slideStyle}
                   className={slideClassName}
-                  aria-hidden={hidden}
                   data-swipeable="true"
                 >
                   {child}
