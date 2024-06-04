@@ -1,7 +1,7 @@
 // @flow
 
 const enzyme = require('enzyme');
-const Adapter = require('@cfaester/enzyme-adapter-react-18');
+const Adapter = require('enzyme-adapter-react-16');
 const chai = require('chai');
 
 require('./dom')();
